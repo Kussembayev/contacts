@@ -159,7 +159,6 @@ extension AddContactViewController: UITableViewDelegate, UITableViewDataSource {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: addressCell,
                                                      for: indexPath) as? EditAddressTableViewCell
                 else { return UITableViewCell() }
-            cell.indexPath = indexPath
             cell.user = self.user
             cell.tag = indexPath.row
             cell.delegate = self

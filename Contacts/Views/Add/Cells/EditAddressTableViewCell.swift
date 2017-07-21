@@ -27,7 +27,7 @@ class EditAddressTableViewCell: UITableViewCell {
             setData()
         }
     }
-    var indexPath: IndexPath?
+    
     weak var delegate: EditAddressTableViewCellDelegate?
 
     // MARK: - Lifecycle
