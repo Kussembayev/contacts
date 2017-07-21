@@ -1,0 +1,162 @@
+ [
+  
+  {
+  "user": {
+  "contactID": "1wert",
+  "firstName": "Apa",
+  "lastName": "Sherpa",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Apa Pushkina 123",
+  "streetAddress2": "Apa Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  },
+  
+  {
+  "user": {
+  "contactID": "2wert",
+  "firstName": "Anatolii",
+  "lastName": "Bukreyev",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Anatolii Pushkina 123",
+  "streetAddress2": "Anatolii Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  }
+  ,
+  
+  {
+  "user": {
+  "contactID": "3wert",
+  "firstName": "Irina",
+  "lastName": "Galai",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Irina Pushkina 123",
+  "streetAddress2": "Irina Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  },
+  
+  {
+  "user": {
+  "contactID": "4wert",
+  "firstName": "Edmund",
+  "lastName": "Hillary",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Edmund Pushkina 123",
+  "streetAddress2": "Edmund Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  },
+  
+  {
+  "user": {
+  "contactID": "5wert",
+  "firstName": "Tenzing",
+  "lastName": "Norgay",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Tenzing Pushkina 123",
+  "streetAddress2": "Tenzing Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  },
+  
+  {
+  "user": {
+  "contactID": "6wert",
+  "firstName": "Jim",
+  "lastName": "Whittaker",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Jim Pushkina 123",
+  "streetAddress2": "Jim Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  },
+  
+  {
+  "user": {
+  "contactID": "7wert",
+  "firstName": "Rob",
+  "lastName": "Hall",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Rob Pushkina 123",
+  "streetAddress2": "Rob Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  },
+  {
+  "user": {
+  "contactID": "8wert",
+  "firstName": "Scott",
+  "lastName": "Fischer",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Scott Pushkina 123",
+  "streetAddress2": "Scott Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  },
+  {
+  "user": {
+  "contactID": "9wert",
+  "firstName": "Yasuko",
+  "lastName": "Namba",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Yasuko Pushkina 123",
+  "streetAddress2": "Yasuko Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  },
+  {
+  "user": {
+  "contactID": "10wert",
+  "firstName": "Kazi",
+  "lastName": "Sherpa",
+  "phoneNumber": "+7738388333"
+  },
+  "address": {
+  "streetAddress1": "Kazi Pushkina 123",
+  "streetAddress2": "Kazi Pushkina 321",
+  "city": "Warsaw",
+  "state": "Mazowieckie",
+  "zipCode": "5000400"
+  }
+  }
+  
+  
+]

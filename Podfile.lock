@@ -1,0 +1,17 @@
+PODS:
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - MagicalRecord
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: ea8b3e5ef8464a79f4bde6987114980de509ef72
+
+COCOAPODS: 1.2.1

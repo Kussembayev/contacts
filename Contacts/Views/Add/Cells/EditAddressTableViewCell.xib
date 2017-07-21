@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16G23a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="KGk-i7-Jjw" customClass="EditAddressTableViewCell" customModule="Contacts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M4p-Vv-Cai">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fEF-hy-KmX">
+                                <rect key="frame" x="8" y="8" width="304" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GpY-ls-5wF">
+                                <rect key="frame" x="8" y="54" width="304" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zip code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0pV-Hq-nGS">
+                                <rect key="frame" x="8" y="100" width="304" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRj-g4-AWj">
+                                <rect key="frame" x="8" y="146" width="304" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r6o-4X-uHk">
+                                <rect key="frame" x="8" y="192" width="304" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r6o-4X-uHk" firstAttribute="top" secondItem="KRj-g4-AWj" secondAttribute="bottom" constant="16" id="43e-Az-9FU"/>
+                            <constraint firstAttribute="trailing" secondItem="0pV-Hq-nGS" secondAttribute="trailing" constant="8" id="A1u-ba-npE"/>
+                            <constraint firstItem="fEF-hy-KmX" firstAttribute="leading" secondItem="M4p-Vv-Cai" secondAttribute="leading" constant="8" id="FbM-w6-kFE"/>
+                            <constraint firstAttribute="trailing" secondItem="KRj-g4-AWj" secondAttribute="trailing" constant="8" id="HfT-KG-luW"/>
+                            <constraint firstItem="0pV-Hq-nGS" firstAttribute="top" secondItem="GpY-ls-5wF" secondAttribute="bottom" constant="16" id="Km7-LW-vtr"/>
+                            <constraint firstItem="fEF-hy-KmX" firstAttribute="top" secondItem="M4p-Vv-Cai" secondAttribute="top" constant="8" id="N3m-Xu-5a9"/>
+                            <constraint firstAttribute="trailing" secondItem="r6o-4X-uHk" secondAttribute="trailing" constant="8" id="TxP-oN-l5O"/>
+                            <constraint firstItem="KRj-g4-AWj" firstAttribute="leading" secondItem="M4p-Vv-Cai" secondAttribute="leading" constant="8" id="WDT-l5-tZr"/>
+                            <constraint firstAttribute="height" constant="250" id="boq-WY-1KH"/>
+                            <constraint firstAttribute="trailing" secondItem="GpY-ls-5wF" secondAttribute="trailing" constant="8" id="d40-Tm-ZCr"/>
+                            <constraint firstAttribute="trailing" secondItem="fEF-hy-KmX" secondAttribute="trailing" constant="8" id="h8p-9w-JWP"/>
+                            <constraint firstItem="0pV-Hq-nGS" firstAttribute="leading" secondItem="M4p-Vv-Cai" secondAttribute="leading" constant="8" id="hqL-dr-0Cd"/>
+                            <constraint firstItem="KRj-g4-AWj" firstAttribute="top" secondItem="0pV-Hq-nGS" secondAttribute="bottom" constant="16" id="jOx-T0-dlb"/>
+                            <constraint firstItem="GpY-ls-5wF" firstAttribute="top" secondItem="fEF-hy-KmX" secondAttribute="bottom" constant="16" id="kA1-FW-bOm"/>
+                            <constraint firstItem="r6o-4X-uHk" firstAttribute="leading" secondItem="M4p-Vv-Cai" secondAttribute="leading" constant="8" id="tGT-0R-qF8"/>
+                            <constraint firstItem="GpY-ls-5wF" firstAttribute="leading" secondItem="M4p-Vv-Cai" secondAttribute="leading" constant="8" id="yLP-p4-hVz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="M4p-Vv-Cai" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7Cr-cA-VNJ"/>
+                    <constraint firstAttribute="trailing" secondItem="M4p-Vv-Cai" secondAttribute="trailing" id="8qt-6F-hMq"/>
+                    <constraint firstAttribute="bottom" secondItem="M4p-Vv-Cai" secondAttribute="bottom" id="AsD-VZ-9fd"/>
+                    <constraint firstItem="M4p-Vv-Cai" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="SSv-Nu-cvy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressOneTextField" destination="KRj-g4-AWj" id="RTE-rv-9mx"/>
+                <outlet property="addressTwoTextField" destination="r6o-4X-uHk" id="wMq-nh-BbD"/>
+                <outlet property="cityTextField" destination="GpY-ls-5wF" id="yzy-9J-LsG"/>
+                <outlet property="stateTextField" destination="fEF-hy-KmX" id="erh-d6-hao"/>
+                <outlet property="zipCodeTextField" destination="0pV-Hq-nGS" id="TM6-gy-bQm"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
